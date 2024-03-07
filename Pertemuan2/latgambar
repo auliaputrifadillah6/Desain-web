@@ -1,0 +1,8 @@
+<body>
+    <p>Gambar Tampa format</p>
+    <img src="th(2).jpg" height="100"/>
+    <p>Gambar Dengan Format hspace</p>
+    <img src="th(1)jpg" height="100"hspace="100"/>
+    <p>Gambar Dengan Broder</p>
+    <img src="th(3)jpg" border="2" height="100"/>
+</body>
