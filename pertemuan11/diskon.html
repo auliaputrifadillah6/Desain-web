@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    var namabarang = "Roti";
+    var harga = 2000;
+    var jumlah = 2;
+    var bayar = 4000;
+
+    if (jumlah >= 2) {
+        var diskon = harga * 0.0;
+    } else {
+        diskon = 0;
+    }
+
+    var totalbayar = harga * jumlah - diskon;
+    document.writeln(totalbayar);
+    </script>
+</body>
+</html>
